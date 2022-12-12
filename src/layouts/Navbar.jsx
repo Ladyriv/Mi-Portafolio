@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/img/LogoBlack.svg'
 
 import { Navbar, Nav, Container } from 'react-bootstrap'
 import { Outlet, Link } from 'react-router-dom'
@@ -8,7 +9,8 @@ const NavBarEx = () => {
     <>
     <Navbar className="navBg" bg="navbar-ligth" expand="lg">
       <Container>
-        <Navbar.Brand img src="./src/assets/img/Logo-Black.png"></Navbar.Brand>
+        <img src={logo}></img>
+        <Navbar.Brand></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

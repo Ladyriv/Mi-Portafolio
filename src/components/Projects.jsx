@@ -9,7 +9,7 @@ const Projects = () => {
       <>
       <CardGroup className="target">
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img/>
         <Card.Body>
           <Card.Title>Imitación Dezeer</Card.Title>
           <Card.Text>
@@ -18,11 +18,11 @@ const Projects = () => {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-         <Card.Link href="#">Card Link</Card.Link>
+         <Card.Link href="#">Despliegue</Card.Link>
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img />
         <Card.Body>
           <Card.Title>Calculadora</Card.Title>
           <Card.Text>
@@ -35,7 +35,7 @@ const Projects = () => {
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img />
         <Card.Body>
           <Card.Title>Imitación z-shop</Card.Title>
           <Card.Text>
@@ -44,12 +44,11 @@ const Projects = () => {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-         <Card.Link href="#">Link despliegue</Card.Link>
+         <Card.Link href="#">Despliegue</Card.Link>
         </Card.Footer>
       </Card>
-      </CardGroup>      
+      </CardGroup>
       </>
- 
     </div>
   )
 }
