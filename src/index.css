@@ -1,6 +1,6 @@
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: 'Abhaya Libre', sans-serif;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 400;
 
@@ -26,10 +26,8 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
   place-items: center;
-  min-width: 500px;
-  min-height: 100vh;
+  background: #454546;
 }
 
 h1 {

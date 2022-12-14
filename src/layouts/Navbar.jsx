@@ -21,9 +21,9 @@ const NavBarEx = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    <section>
+    {/*<section>
       <Outlet></Outlet>
-    </section>
+    </section>*/}
     </>
   )
 }
