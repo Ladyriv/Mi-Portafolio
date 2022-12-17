@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import imageLog from '../assets/img/mandLR.png'
+import imageLog from '../assets/img/MandLR.png'
 import imageElem from '../assets/img/Elementos.png'
 
 const Home = () => {

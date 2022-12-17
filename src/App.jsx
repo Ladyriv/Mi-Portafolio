@@ -6,6 +6,8 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import NavBarEx from './layouts/Navbar';
+import AllPagesPDFViewer from "./components/Docums";
+import samplePDF from "./assets/docs/CV-LeidyRivera.pdf";
 
 function App() {
 

@@ -1,17 +1,16 @@
 import Card from 'react-bootstrap/Card';
+import { FiMail, FiPhoneCall, FiFile } from "react-icons/fi";
 
-const Contact = () => {
-    return(
-      <div>
-        <h1>CONTACTO</h1>
 
-        <>
-        <Card>
-         <Card.Body>This is some text within a card body.</Card.Body>
-        </Card>
-        </>
-      </div>
-    )
+function Contact() {
+  return (
+    <Card className='card mb-2'>
+      <h1>CONTACT</h1>
+      <a className='icon' href='#'><FiMail />  leidy.riveraf@outlook.com</a>
+      <a className='icon' href='#'> <FiPhoneCall />   313 8798873 </a>
+      <a className='icon' href='./Docums'> <FiFile />  CV </a>
+    </Card>
+  );
 }
 
 export default Contact

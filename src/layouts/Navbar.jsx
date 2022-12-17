@@ -9,7 +9,7 @@ const NavBarEx = () => {
     <>
     <Navbar className="navBg" bg="navbar-ligth" expand="lg">
       <Container>
-        <img src={logo}></img>
+        <img src={logo} class="logo"></img>
         <Navbar.Brand></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
