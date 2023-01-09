@@ -16,3 +16,19 @@ Para desplegar este proyecto:
 ```
 ```bash
   Ejecutar archivo Index.html
+```
+```bash
+  Instalar las dependencias NodeJS
+```
+```bash
+  npm install
+```
+
+  
+ 
+ 
+## Demo  :computer:
+- https://leidyrivera-portafolio.vercel.app/
+
+## Autor
+- [@LeidyRivera] https://github.com/Ladyriv
