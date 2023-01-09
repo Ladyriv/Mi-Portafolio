@@ -1,33 +1,33 @@
-import Carousel from 'react-bootstrap/Carousel';
-import imageLog from '../assets/img/MandLR.png'
+import imageLog from '../assets/img/Perfil1.png'
 import imageElem from '../assets/img/Elementos.png'
 
 const Home = () => {
     return(
-      <Carousel>
-        <Carousel.Item>
-          <img
-            className="img-presentation"
+      <div>
+        
+        <nav className='section1'>     
+            <h1>BIENVENIDOS</h1>
+            <img
+            className="rounded-circle"
             src={imageLog}
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>Bienvenidos</h3>
-            <p>Soy Leidy, desarrolladora web</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="img-tools"
-            src={imageElem}
-            alt="Second slide"
-          />
-          <Carousel.Caption>
-            <h3></h3>
-            <p>Este es mi espacio donde comparto mis proyectos.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+            alt=""
+            />
+            <p className='text-center'>Soy Leidy, desarrolladora web, 
+             me gusta la tecnologia, vivo en constante aprendizaje
+            </p>
+            <img
+             className="rounded float-end"
+             src={imageElem}
+             alt=""
+           />
+            <p className='float-none'>Este es mi espacio donde 
+               comparto mis proyectos.
+               Tengo conocimientos en HTML,
+               Css y Javascript y aprendiendo de React
+            </p>
+        </nav>
+        
+      </div>
     )
 }
 

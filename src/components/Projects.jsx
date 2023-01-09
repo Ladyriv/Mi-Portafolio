@@ -52,7 +52,7 @@ const Projects = () => {
       </>
       <>
       <a className='icon-social float-right' href='https://github.com/Ladyriv'><FaGithubSquare/></a>
-      <a className='icon-social'href='#'><FaLinkedin/></a>
+      <a className='icon-social'href='https://www.linkedin.com/in/leidy-caterin-rivera-165420a2'><FaLinkedin/></a>
       </>
     </div>
     
