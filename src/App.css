@@ -90,7 +90,7 @@ html, body {
   animation-duration: 5s;
   animation: bounce;
   animation-duration: 2s;
-
+  font-size: 28px;
 }
 p {
   float: inline-start;
@@ -351,7 +351,7 @@ a.icon:hover{
   }
   .text-center{
     margin-top: 12em;
-    font-size: 26px;
+    font-size: 24px;
   }
   .section2{
     flex-direction: column;
@@ -422,7 +422,7 @@ a.icon:hover{
   }
   .text-center{
     margin-top: 15em;
-    font-size: 26px;
+    font-size: 20px;
   }
   p.float-none{
     margin-top: 3em;
